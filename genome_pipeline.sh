@@ -6,9 +6,7 @@
 # Paired-end exome trio analysis on chromosome 20 (GRCh38). Five trios are
 # analysed under three inheritance models: AR (trio_1, trio_4, trio_5),
 # AD inherited (trio_2 — affected parent inferred empirically), AD de novo
-# (trio_3). The pipeline mirrors the structure of the BCG 2025 reference
-# script (Caccia & Gautieri, single-end chr16) and is adapted for paired-end
-# data, GRCh38, an updated VEP cache and a stricter filter_vep step.
+# (trio_3).
 # ============================================================================
 set -euo pipefail
 
