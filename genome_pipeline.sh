@@ -1,7 +1,7 @@
 #!/bin/bash
 # ============================================================================
 # BCG 2026 Genomics — final project pipeline 
-# Author : Pardis Pourhamzeh (BCG2026_Pourhamzeh_P)
+# Author : Pardis Pourhamzeh
 #
 # Paired-end exome trio analysis on chromosome 20 (GRCh38). Five trios are
 # analysed under three inheritance models: AR (trio_1, trio_4, trio_5),
@@ -27,7 +27,6 @@ done
 CHILD[trio_5]="HG00421"; FATHER[trio_5]="HG00422"; MOTHER[trio_5]="HG00423"
 
 # ---------- PATHS ---------------------------------------------------------
-USER_FOLDER="BCG2026_Pourhamzeh_P"
 EXAM_DIR="/home/BCG2026_exam"
 SRC="${EXAM_DIR}/${USER_FOLDER}"
 WORKDIR="${HOME}/exam_project"
