@@ -1,0 +1,13 @@
+.	Basic Statistics	Per Base Sequence Quality	Per Sequence Quality Scores	Per Base Sequence Content	Per Sequence GC Content	Per Base N Content	Sequence Length Distribution	Sequence Duplication Levels	Overrepresented Sequences	Adapter Content
+HG00421.targets_R1	1	1	1	1	1	1	1	1	1	1
+HG00421.targets_R2	1	1	1	1	1	1	1	1	1	1
+HG00422.targets_R1	1	1	1	1	1	1	1	1	1	1
+HG00422.targets_R2	1	1	1	1	1	1	1	1	1	1
+HG00423.targets_R1	1	1	1	1	1	1	1	1	1	1
+HG00423.targets_R2	1	1	1	1	1	1	1	1	1	1
+HG00427.targets_R1	1	1	1	1	1	1	1	1	1	1
+HG00427.targets_R2	1	1	1	1	1	1	1	1	1	1
+HG00428.targets_R1	1	1	1	1	1	1	1	1	1	1
+HG00428.targets_R2	1	1	1	1	1	1	1	1	1	1
+HG00429.targets_R1	1	1	1	1	1	1	1	1	1	1
+HG00429.targets_R2	1	1	1	1	1	1	1	1	1	1

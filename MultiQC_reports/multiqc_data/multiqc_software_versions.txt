@@ -1,0 +1,3 @@
+Sample	BamQC	FastQC
+FastQC		0.11.9
+QualiMap	2.3	

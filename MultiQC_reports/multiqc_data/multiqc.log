@@ -1,0 +1,214 @@
+[2026-05-09 01:55:41,797] root                                               [DEBUG  ]  Logging to file: /tmp/tmpuqww924q/multiqc.log
+[2026-05-09 01:55:41,800] multiqc.core.update_config                         [DEBUG  ]  This is MultiQC v1.34
+[2026-05-09 01:55:41,800] multiqc.core.update_config                         [DEBUG  ]  Running Python 3.10.12 (main, Mar  3 2026, 11:56:32) [GCC 11.4.0]
+[2026-05-09 01:55:41,802] urllib3.connectionpool                             [DEBUG  ]  Starting new HTTPS connection (1): api.multiqc.info:443
+[2026-05-09 01:55:43,021] urllib3.connectionpool                             [DEBUG  ]  https://api.multiqc.info:443 "GET /version?version_multiqc=1.34&version_python=3.10.12&operating_system=Linux&is_docker=False&is_singularity=False&is_conda=False&is_uv=False&is_ci=False&is_notebook=False&ai_summary=False&ai_summary_full=False&ai_provider=seqera HTTP/1.1" 200 178
+[2026-05-09 01:55:43,024] multiqc.core.version_check                         [DEBUG  ]  Latest MultiQC version is v1.34, released 2026-04-21
+[2026-05-09 01:55:43,025] multiqc.multiqc                                    [DEBUG  ]  Working dir : /home/BCG2026_Pourhamzeh_P/exam_project
+[2026-05-09 01:55:43,025] multiqc.multiqc                                    [DEBUG  ]  Template    : default
+[2026-05-09 01:55:43,026] multiqc.multiqc                                    [DEBUG  ]  Command used: /usr/local/bin/multiqc -f -o multiqc trio_1/fastqc trio_2/fastqc trio_3/fastqc trio_4/fastqc trio_5/fastqc trio_1/fastqc/qualimap trio_2/fastqc/qualimap trio_3/fastqc/qualimap trio_4/fastqc/qualimap trio_5/fastqc/qualimap
+[2026-05-09 01:55:43,026] multiqc.core.file_search                           [INFO   ]  Search path: /home/BCG2026_Pourhamzeh_P/exam_project/trio_1/fastqc
+[2026-05-09 01:55:43,026] multiqc.core.file_search                           [INFO   ]  Search path: /home/BCG2026_Pourhamzeh_P/exam_project/trio_2/fastqc
+[2026-05-09 01:55:43,026] multiqc.core.file_search                           [INFO   ]  Search path: /home/BCG2026_Pourhamzeh_P/exam_project/trio_3/fastqc
+[2026-05-09 01:55:43,027] multiqc.core.file_search                           [INFO   ]  Search path: /home/BCG2026_Pourhamzeh_P/exam_project/trio_4/fastqc
+[2026-05-09 01:55:43,027] multiqc.core.file_search                           [INFO   ]  Search path: /home/BCG2026_Pourhamzeh_P/exam_project/trio_5/fastqc
+[2026-05-09 01:55:43,027] multiqc.core.file_search                           [INFO   ]  Search path: /home/BCG2026_Pourhamzeh_P/exam_project/trio_1/fastqc/qualimap
+[2026-05-09 01:55:43,027] multiqc.core.file_search                           [INFO   ]  Search path: /home/BCG2026_Pourhamzeh_P/exam_project/trio_2/fastqc/qualimap
+[2026-05-09 01:55:43,027] multiqc.core.file_search                           [INFO   ]  Search path: /home/BCG2026_Pourhamzeh_P/exam_project/trio_3/fastqc/qualimap
+[2026-05-09 01:55:43,027] multiqc.core.file_search                           [INFO   ]  Search path: /home/BCG2026_Pourhamzeh_P/exam_project/trio_4/fastqc/qualimap
+[2026-05-09 01:55:43,027] multiqc.core.file_search                           [INFO   ]  Search path: /home/BCG2026_Pourhamzeh_P/exam_project/trio_5/fastqc/qualimap
+[2026-05-09 01:55:43,029] multiqc.core.file_search                           [DEBUG  ]  Analysing modules: bases2fastq, cellranger_arc, cells2stats, methurator, ribotish, ribowaltz, seqkit, sompy, xenium, custom_content, ccs, ngsderive, purple, conpair, isoseq, lima, peddy, percolator, haplocheck, somalier, methylqa, mosdepth, phantompeakqualtools, qualimap, bamdst, preseq, hifiasm, quast, qorts, rna_seqc, rockhopper, rsem, rseqc, busco, checkm, bustools, goleft_indexcov, gffcompare, disambiguate, supernova, deeptools, sargasso, verifybamid, mirtrace, happy, mirtop, glimpse, gopeaks, homer, hops, macs2, theta2, snpeff, gatk, htseq, bcftools, featurecounts, fgbio, dragen, dragen_fastqc, dedup, pbmarkdup, damageprofiler, mapdamage, biobambam2, jcvi, mtnucratio, picard, vep, bakta, prokka, checkm2, qc3C, nanoq, nanostat, samblaster, samtools, bamtools, sambamba, ngsbits, pairtools, sexdeterrmine, seqera_cli, eigenstratdatabasetools, jellyfish, vcftools, longranger, stacks, varscan2, snippy, umicollapse, umitools, truvari, megahit, ganon, gtdbtk, bbmap, bismark, biscuit, diamond, hicexplorer, hicup, hicpro, salmon, kallisto, slamdunk, star, hisat2, tophat, bowtie2, bowtie1, hostile, cellranger, snpsplit, odgi, vg, pangolin, nextclade, freyja, humid, kat, leehom, librarian, nonpareil, adapterremoval, bbduk, clipandmerge, cutadapt, flexbar, sourmash, kaiju, kraken, malt, motus, trimmomatic, sickle, skewer, sortmerna, biobloomtools, seqfu, fastq_screen, afterqc, fastp, fastqc, sequali, filtlong, prinseqplusplus, pychopper, porechop, pycoqc, minionqc, anglerfish, multivcfanalyzer, clusterflow, checkqc, bcl2fastq, bclconvert, interop, ivar, flash, seqyclean, optitype, whatshap, spaceranger, xenome, xengsort, metaphlan, sylphtax, seqwho, telseq, ataqv, mgikit, mosaicatcher, software_versions
+[2026-05-09 01:55:43,029] multiqc.core.file_search                           [DEBUG  ]  Search keys: adapterremoval, afterqc, anglerfish, ataqv, bakta, bamdst, bamtools, bases2fastq, bbduk, bbmap, bcftools, bcl2fastq, bclconvert, biobambam2, biobloomtools, biscuit, bismark, bowtie1, bowtie2, busco, bustools, ccs, cellranger, cellranger_arc, cells2stats, checkm, checkm2, checkqc, clipandmerge, clusterflow, conpair, custom_content, cutadapt, damageprofiler, dedup, deeptools, diamond, disambiguate, dragen, dragen_fastqc, eigenstratdatabasetools, fastp, fastq_screen, fastqc, featurecounts, fgbio, filtlong, flash, flexbar, freyja, ganon, gatk, gffcompare, glimpse, goleft_indexcov, gopeaks, gtdbtk, haplocheck, happy, hicexplorer, hicpro, hicup, hifiasm, hisat2, homer, hops, hostile, htseq, humid, interop, isoseq, ivar, jcvi, jellyfish, kaiju, kallisto, kat, kraken, leehom, librarian, lima, longranger, macs2, malt, mapdamage, megahit, metaphlan, methurator, methylqa, mgikit, minionqc, mirtop, mirtrace, mosaicatcher, mosdepth, motus, mtnucratio, multiqc_data, multivcfanalyzer, nanoq, nanostat, nextclade, ngsbits, ngsderive, nonpareil, odgi, optitype, pairtools, pangolin, pbmarkdup, peddy, percolator, phantompeakqualtools, picard, porechop, preseq, prinseqplusplus, prokka, purple, pychopper, pycoqc, qc3C, qorts, qualimap, quast, ribotish, ribowaltz, rna_seqc, rockhopper, rsem, rseqc, salmon, sambamba, samblaster, samtools, sargasso, seqera_cli, seqfu, seqkit, sequali, seqwho, seqyclean, sexdeterrmine, sickle, skewer, slamdunk, snippy, snpeff, snpsplit, software_versions, somalier, sompy, sortmerna, sourmash, spaceranger, stacks, star, supernova, sylphtax, telseq, theta2, tophat, trimmomatic, truvari, umicollapse, umitools, varscan2, vcftools, vep, verifybamid, vg, whatshap, xengsort, xenium, xenome
+[2026-05-09 01:55:44,520] multiqc.report                                     [DEBUG  ]  Summary of files that were skipped by the search: |skipped_module_specific_max_filesize: 230|, |skipped_no_match: 665|
+[2026-05-09 01:55:44,525] multiqc.core.exec_modules                          [DEBUG  ]  Running module: custom_content
+[2026-05-09 01:55:44,528] multiqc.core.exec_modules                          [DEBUG  ]  No samples found: custom_content
+[2026-05-09 01:55:44,528] multiqc.core.exec_modules                          [DEBUG  ]  Running module: qualimap
+[2026-05-09 01:55:44,536] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate genome results sample name found! Overwriting: child_sorted
+[2026-05-09 01:55:44,536] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate genome results sample name found! Overwriting: father_sorted
+[2026-05-09 01:55:44,537] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate genome results sample name found! Overwriting: mother_sorted
+[2026-05-09 01:55:44,537] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate genome results sample name found! Overwriting: child_sorted
+[2026-05-09 01:55:44,538] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate genome results sample name found! Overwriting: father_sorted
+[2026-05-09 01:55:44,538] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate genome results sample name found! Overwriting: mother_sorted
+[2026-05-09 01:55:44,539] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate genome results sample name found! Overwriting: child_sorted
+[2026-05-09 01:55:44,539] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate genome results sample name found! Overwriting: father_sorted
+[2026-05-09 01:55:44,540] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate genome results sample name found! Overwriting: mother_sorted
+[2026-05-09 01:55:44,540] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate genome results sample name found! Overwriting: child_sorted
+[2026-05-09 01:55:44,541] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate genome results sample name found! Overwriting: father_sorted
+[2026-05-09 01:55:44,541] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate genome results sample name found! Overwriting: mother_sorted
+[2026-05-09 01:55:44,542] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate genome results sample name found! Overwriting: child_sorted
+[2026-05-09 01:55:44,542] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate genome results sample name found! Overwriting: father_sorted
+[2026-05-09 01:55:44,543] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate genome results sample name found! Overwriting: mother_sorted
+[2026-05-09 01:55:44,543] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate genome results sample name found! Overwriting: child_sorted
+[2026-05-09 01:55:44,544] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate genome results sample name found! Overwriting: father_sorted
+[2026-05-09 01:55:44,544] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate genome results sample name found! Overwriting: mother_sorted
+[2026-05-09 01:55:44,545] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate genome results sample name found! Overwriting: child_sorted
+[2026-05-09 01:55:44,545] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate genome results sample name found! Overwriting: father_sorted
+[2026-05-09 01:55:44,546] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate genome results sample name found! Overwriting: mother_sorted
+[2026-05-09 01:55:44,546] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate genome results sample name found! Overwriting: child_sorted
+[2026-05-09 01:55:44,547] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate genome results sample name found! Overwriting: father_sorted
+[2026-05-09 01:55:44,547] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate genome results sample name found! Overwriting: mother_sorted
+[2026-05-09 01:55:44,548] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate genome results sample name found! Overwriting: child_sorted
+[2026-05-09 01:55:44,548] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate genome results sample name found! Overwriting: father_sorted
+[2026-05-09 01:55:44,549] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate genome results sample name found! Overwriting: mother_sorted
+[2026-05-09 01:55:44,549] multiqc.report                                     [DEBUG  ]  Wrote data file multiqc_qualimap_bamqc_genome_results.txt
+[2026-05-09 01:55:44,549] multiqc.report                                     [DEBUG  ]  Wrote data file multiqc_qualimap_bamqc_genome_results.json
+[2026-05-09 01:55:44,554] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate coverage histogram sample name found! Overwriting: child
+[2026-05-09 01:55:44,554] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate coverage histogram sample name found! Overwriting: father
+[2026-05-09 01:55:44,554] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate coverage histogram sample name found! Overwriting: mother
+[2026-05-09 01:55:44,555] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate coverage histogram sample name found! Overwriting: child
+[2026-05-09 01:55:44,555] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate coverage histogram sample name found! Overwriting: father
+[2026-05-09 01:55:44,555] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate coverage histogram sample name found! Overwriting: mother
+[2026-05-09 01:55:44,556] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate coverage histogram sample name found! Overwriting: child
+[2026-05-09 01:55:44,556] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate coverage histogram sample name found! Overwriting: father
+[2026-05-09 01:55:44,556] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate coverage histogram sample name found! Overwriting: mother
+[2026-05-09 01:55:44,557] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate coverage histogram sample name found! Overwriting: child
+[2026-05-09 01:55:44,557] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate coverage histogram sample name found! Overwriting: father
+[2026-05-09 01:55:44,557] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate coverage histogram sample name found! Overwriting: mother
+[2026-05-09 01:55:44,558] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate coverage histogram sample name found! Overwriting: child
+[2026-05-09 01:55:44,558] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate coverage histogram sample name found! Overwriting: father
+[2026-05-09 01:55:44,558] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate coverage histogram sample name found! Overwriting: mother
+[2026-05-09 01:55:44,559] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate coverage histogram sample name found! Overwriting: child
+[2026-05-09 01:55:44,559] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate coverage histogram sample name found! Overwriting: father
+[2026-05-09 01:55:44,559] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate coverage histogram sample name found! Overwriting: mother
+[2026-05-09 01:55:44,560] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate coverage histogram sample name found! Overwriting: child
+[2026-05-09 01:55:44,560] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate coverage histogram sample name found! Overwriting: father
+[2026-05-09 01:55:44,560] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate coverage histogram sample name found! Overwriting: mother
+[2026-05-09 01:55:44,561] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate coverage histogram sample name found! Overwriting: child
+[2026-05-09 01:55:44,561] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate coverage histogram sample name found! Overwriting: father
+[2026-05-09 01:55:44,561] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate coverage histogram sample name found! Overwriting: mother
+[2026-05-09 01:55:44,562] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate coverage histogram sample name found! Overwriting: child
+[2026-05-09 01:55:44,562] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate coverage histogram sample name found! Overwriting: father
+[2026-05-09 01:55:44,562] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate coverage histogram sample name found! Overwriting: mother
+[2026-05-09 01:55:44,567] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate insert size histogram sample name found! Overwriting: child
+[2026-05-09 01:55:44,568] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate insert size histogram sample name found! Overwriting: father
+[2026-05-09 01:55:44,568] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate insert size histogram sample name found! Overwriting: mother
+[2026-05-09 01:55:44,569] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate insert size histogram sample name found! Overwriting: child
+[2026-05-09 01:55:44,569] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate insert size histogram sample name found! Overwriting: father
+[2026-05-09 01:55:44,570] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate insert size histogram sample name found! Overwriting: mother
+[2026-05-09 01:55:44,570] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate insert size histogram sample name found! Overwriting: child
+[2026-05-09 01:55:44,571] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate insert size histogram sample name found! Overwriting: father
+[2026-05-09 01:55:44,571] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate insert size histogram sample name found! Overwriting: mother
+[2026-05-09 01:55:44,572] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate insert size histogram sample name found! Overwriting: child
+[2026-05-09 01:55:44,572] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate insert size histogram sample name found! Overwriting: father
+[2026-05-09 01:55:44,573] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate insert size histogram sample name found! Overwriting: mother
+[2026-05-09 01:55:44,573] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate insert size histogram sample name found! Overwriting: child
+[2026-05-09 01:55:44,573] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate insert size histogram sample name found! Overwriting: father
+[2026-05-09 01:55:44,574] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate insert size histogram sample name found! Overwriting: mother
+[2026-05-09 01:55:44,574] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate insert size histogram sample name found! Overwriting: child
+[2026-05-09 01:55:44,575] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate insert size histogram sample name found! Overwriting: father
+[2026-05-09 01:55:44,575] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate insert size histogram sample name found! Overwriting: mother
+[2026-05-09 01:55:44,576] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate insert size histogram sample name found! Overwriting: child
+[2026-05-09 01:55:44,576] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate insert size histogram sample name found! Overwriting: father
+[2026-05-09 01:55:44,577] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate insert size histogram sample name found! Overwriting: mother
+[2026-05-09 01:55:44,577] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate insert size histogram sample name found! Overwriting: child
+[2026-05-09 01:55:44,578] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate insert size histogram sample name found! Overwriting: father
+[2026-05-09 01:55:44,578] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate insert size histogram sample name found! Overwriting: mother
+[2026-05-09 01:55:44,579] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate insert size histogram sample name found! Overwriting: child
+[2026-05-09 01:55:44,579] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate insert size histogram sample name found! Overwriting: father
+[2026-05-09 01:55:44,580] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate insert size histogram sample name found! Overwriting: mother
+[2026-05-09 01:55:44,584] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate Mapped Reads GC content distribution sample name found! Overwriting: child
+[2026-05-09 01:55:44,585] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate Mapped Reads GC content distribution sample name found! Overwriting: father
+[2026-05-09 01:55:44,585] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate Mapped Reads GC content distribution sample name found! Overwriting: mother
+[2026-05-09 01:55:44,586] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate Mapped Reads GC content distribution sample name found! Overwriting: child
+[2026-05-09 01:55:44,586] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate Mapped Reads GC content distribution sample name found! Overwriting: father
+[2026-05-09 01:55:44,586] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate Mapped Reads GC content distribution sample name found! Overwriting: mother
+[2026-05-09 01:55:44,587] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate Mapped Reads GC content distribution sample name found! Overwriting: child
+[2026-05-09 01:55:44,587] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate Mapped Reads GC content distribution sample name found! Overwriting: father
+[2026-05-09 01:55:44,588] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate Mapped Reads GC content distribution sample name found! Overwriting: mother
+[2026-05-09 01:55:44,588] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate Mapped Reads GC content distribution sample name found! Overwriting: child
+[2026-05-09 01:55:44,588] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate Mapped Reads GC content distribution sample name found! Overwriting: father
+[2026-05-09 01:55:44,589] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate Mapped Reads GC content distribution sample name found! Overwriting: mother
+[2026-05-09 01:55:44,589] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate Mapped Reads GC content distribution sample name found! Overwriting: child
+[2026-05-09 01:55:44,589] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate Mapped Reads GC content distribution sample name found! Overwriting: father
+[2026-05-09 01:55:44,590] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate Mapped Reads GC content distribution sample name found! Overwriting: mother
+[2026-05-09 01:55:44,590] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate Mapped Reads GC content distribution sample name found! Overwriting: child
+[2026-05-09 01:55:44,591] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate Mapped Reads GC content distribution sample name found! Overwriting: father
+[2026-05-09 01:55:44,591] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate Mapped Reads GC content distribution sample name found! Overwriting: mother
+[2026-05-09 01:55:44,591] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate Mapped Reads GC content distribution sample name found! Overwriting: child
+[2026-05-09 01:55:44,592] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate Mapped Reads GC content distribution sample name found! Overwriting: father
+[2026-05-09 01:55:44,592] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate Mapped Reads GC content distribution sample name found! Overwriting: mother
+[2026-05-09 01:55:44,593] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate Mapped Reads GC content distribution sample name found! Overwriting: child
+[2026-05-09 01:55:44,593] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate Mapped Reads GC content distribution sample name found! Overwriting: father
+[2026-05-09 01:55:44,593] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate Mapped Reads GC content distribution sample name found! Overwriting: mother
+[2026-05-09 01:55:44,594] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate Mapped Reads GC content distribution sample name found! Overwriting: child
+[2026-05-09 01:55:44,594] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate Mapped Reads GC content distribution sample name found! Overwriting: father
+[2026-05-09 01:55:44,594] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Duplicate Mapped Reads GC content distribution sample name found! Overwriting: mother
+[2026-05-09 01:55:44,606] multiqc.config                                     [DEBUG  ]  Using default coverage thresholds: 1, 5, 10, 30, 50
+[2026-05-09 01:55:44,623] multiqc.plots.plot                                 [DEBUG  ]  merge_with_previous for qualimap_coverage_histogram: found old_data = False
+[2026-05-09 01:55:44,623] multiqc.plots.plot                                 [DEBUG  ]  merge_with_previous for qualimap_coverage_histogram: no old data or empty, using new data only
+[2026-05-09 01:55:44,689] multiqc.plots.plot                                 [DEBUG  ]  merge_with_previous for qualimap_genome_fraction: found old_data = False
+[2026-05-09 01:55:44,689] multiqc.plots.plot                                 [DEBUG  ]  merge_with_previous for qualimap_genome_fraction: no old data or empty, using new data only
+[2026-05-09 01:55:44,699] multiqc.plots.plot                                 [DEBUG  ]  merge_with_previous for qualimap_insert_size: found old_data = False
+[2026-05-09 01:55:44,699] multiqc.plots.plot                                 [DEBUG  ]  merge_with_previous for qualimap_insert_size: no old data or empty, using new data only
+[2026-05-09 01:55:44,710] multiqc.plots.plot                                 [DEBUG  ]  merge_with_previous for qualimap_gc_content: found old_data = False
+[2026-05-09 01:55:44,710] multiqc.plots.plot                                 [DEBUG  ]  merge_with_previous for qualimap_gc_content: no old data or empty, using new data only
+[2026-05-09 01:55:44,719] multiqc.modules.qualimap.qualimap                  [INFO   ]  Found 3 BamQC reports
+[2026-05-09 01:55:44,719] multiqc.core.exec_modules                          [DEBUG  ]  Running module: fastqc
+[2026-05-09 01:55:44,735] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'HG00427.targets_R1_fastqc.zip' as already parsed 'HG00427.targets_R1'
+[2026-05-09 01:55:44,736] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'HG00427.targets_R1_fastqc.zip' as already parsed 'HG00427.targets_R1'
+[2026-05-09 01:55:44,736] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'HG00427.targets_R1_fastqc.zip' as already parsed 'HG00427.targets_R1'
+[2026-05-09 01:55:44,738] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'HG00427.targets_R2_fastqc.zip' as already parsed 'HG00427.targets_R2'
+[2026-05-09 01:55:44,738] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'HG00427.targets_R2_fastqc.zip' as already parsed 'HG00427.targets_R2'
+[2026-05-09 01:55:44,738] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'HG00427.targets_R2_fastqc.zip' as already parsed 'HG00427.targets_R2'
+[2026-05-09 01:55:44,740] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'HG00428.targets_R1_fastqc.zip' as already parsed 'HG00428.targets_R1'
+[2026-05-09 01:55:44,740] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'HG00428.targets_R1_fastqc.zip' as already parsed 'HG00428.targets_R1'
+[2026-05-09 01:55:44,740] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'HG00428.targets_R1_fastqc.zip' as already parsed 'HG00428.targets_R1'
+[2026-05-09 01:55:44,742] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'HG00428.targets_R2_fastqc.zip' as already parsed 'HG00428.targets_R2'
+[2026-05-09 01:55:44,742] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'HG00428.targets_R2_fastqc.zip' as already parsed 'HG00428.targets_R2'
+[2026-05-09 01:55:44,742] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'HG00428.targets_R2_fastqc.zip' as already parsed 'HG00428.targets_R2'
+[2026-05-09 01:55:44,744] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'HG00429.targets_R1_fastqc.zip' as already parsed 'HG00429.targets_R1'
+[2026-05-09 01:55:44,744] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'HG00429.targets_R1_fastqc.zip' as already parsed 'HG00429.targets_R1'
+[2026-05-09 01:55:44,744] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'HG00429.targets_R1_fastqc.zip' as already parsed 'HG00429.targets_R1'
+[2026-05-09 01:55:44,746] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'HG00429.targets_R2_fastqc.zip' as already parsed 'HG00429.targets_R2'
+[2026-05-09 01:55:44,746] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'HG00429.targets_R2_fastqc.zip' as already parsed 'HG00429.targets_R2'
+[2026-05-09 01:55:44,746] multiqc.modules.fastqc.fastqc                      [DEBUG  ]  Skipping 'HG00429.targets_R2_fastqc.zip' as already parsed 'HG00429.targets_R2'
+[2026-05-09 01:55:44,747] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 12 reports
+[2026-05-09 01:55:44,747] multiqc.plots.plot                                 [DEBUG  ]  merge_with_previous for fastqc_sequence_counts_plot: found old_data = False
+[2026-05-09 01:55:44,747] multiqc.plots.plot                                 [DEBUG  ]  merge_with_previous for fastqc_sequence_counts_plot: no old data or empty, using new data only
+[2026-05-09 01:55:44,762] multiqc.plots.plot                                 [DEBUG  ]  merge_with_previous for fastqc_per_base_sequence_quality_plot: found old_data = False
+[2026-05-09 01:55:44,762] multiqc.plots.plot                                 [DEBUG  ]  merge_with_previous for fastqc_per_base_sequence_quality_plot: no old data or empty, using new data only
+[2026-05-09 01:55:44,775] multiqc.plots.plot                                 [DEBUG  ]  merge_with_previous for fastqc_per_sequence_quality_scores_plot: found old_data = False
+[2026-05-09 01:55:44,775] multiqc.plots.plot                                 [DEBUG  ]  merge_with_previous for fastqc_per_sequence_quality_scores_plot: no old data or empty, using new data only
+[2026-05-09 01:55:44,797] multiqc.plots.plot                                 [DEBUG  ]  merge_with_previous for fastqc_per_sequence_gc_content_plot: found old_data = False
+[2026-05-09 01:55:44,797] multiqc.plots.plot                                 [DEBUG  ]  merge_with_previous for fastqc_per_sequence_gc_content_plot: no old data or empty, using new data only
+[2026-05-09 01:55:44,813] multiqc.plots.plot                                 [DEBUG  ]  merge_with_previous for fastqc_per_base_n_content_plot: found old_data = False
+[2026-05-09 01:55:44,813] multiqc.plots.plot                                 [DEBUG  ]  merge_with_previous for fastqc_per_base_n_content_plot: no old data or empty, using new data only
+[2026-05-09 01:55:44,825] multiqc.plots.plot                                 [DEBUG  ]  merge_with_previous for fastqc_sequence_duplication_levels_plot: found old_data = False
+[2026-05-09 01:55:44,825] multiqc.plots.plot                                 [DEBUG  ]  merge_with_previous for fastqc_sequence_duplication_levels_plot: no old data or empty, using new data only
+[2026-05-09 01:55:44,834] multiqc.plots.table_object                         [DEBUG  ]  Table key 'samples' not found in data for 'fastqc_top_overrepresented_sequences_table'. Skipping. Check for possible typos between data keys and header keys
+[2026-05-09 01:55:44,834] multiqc.plots.table_object                         [DEBUG  ]  Table key 'total_count' not found in data for 'fastqc_top_overrepresented_sequences_table'. Skipping. Check for possible typos between data keys and header keys
+[2026-05-09 01:55:44,834] multiqc.plots.table_object                         [DEBUG  ]  Table key 'total_percent' not found in data for 'fastqc_top_overrepresented_sequences_table'. Skipping. Check for possible typos between data keys and header keys
+[2026-05-09 01:55:44,834] multiqc.plots.plot                                 [DEBUG  ]  merge_with_previous for fastqc_top_overrepresented_sequences_table: found old_data = False
+[2026-05-09 01:55:44,834] multiqc.plots.plot                                 [DEBUG  ]  merge_with_previous for fastqc_top_overrepresented_sequences_table: no old data or empty, using new data only
+[2026-05-09 01:55:44,838] multiqc.plots.plot                                 [DEBUG  ]  merge_with_previous for fastqc-status-check-heatmap: found old_data = False
+[2026-05-09 01:55:44,838] multiqc.plots.plot                                 [DEBUG  ]  merge_with_previous for fastqc-status-check-heatmap: no old data or empty, using new data only
+[2026-05-09 01:55:44,850] multiqc.report                                     [DEBUG  ]  Wrote data file multiqc_fastqc.txt
+[2026-05-09 01:55:44,850] multiqc.report                                     [DEBUG  ]  Wrote data file multiqc_fastqc.json
+[2026-05-09 01:55:44,850] multiqc.base_module                                [DEBUG  ]  fastqc: deleting attribute self.order_of_duplication_levels
+[2026-05-09 01:55:44,851] multiqc.base_module                                [DEBUG  ]  fastqc: deleting attribute self.status_colours
+[2026-05-09 01:55:44,851] multiqc.core.software_versions                     [DEBUG  ]  Reading software versions from config.software_versions
+[2026-05-09 01:55:44,852] multiqc.report                                     [DEBUG  ]  Wrote data file multiqc_software_versions.txt
+[2026-05-09 01:55:44,852] multiqc.core.write_results                         [DEBUG  ]  Rendering plots
+[2026-05-09 01:55:44,859] multiqc.plots.table_object                         [DEBUG  ]  Table key 'duplicated_reads_flagged' not found in data for 'general_stats_table'. Skipping. Check for possible typos between data keys and header keys
+[2026-05-09 01:55:44,864] multiqc.plots.plot                                 [DEBUG  ]  merge_with_previous for general_stats_table: found old_data = False
+[2026-05-09 01:55:44,864] multiqc.plots.plot                                 [DEBUG  ]  merge_with_previous for general_stats_table: no old data or empty, using new data only
+[2026-05-09 01:55:44,890] multiqc.report                                     [DEBUG  ]  Wrote data file multiqc_general_stats.txt
+[2026-05-09 01:55:44,890] multiqc.report                                     [DEBUG  ]  Wrote data file multiqc_general_stats.json
+[2026-05-09 01:55:44,899] multiqc.core.ai                                    [DEBUG  ]  Saved AI prompt to multiqc_data/llms-full.txt
+[2026-05-09 01:55:44,899] multiqc.core.write_results                         [DEBUG  ]  Exporting plot data to files
+[2026-05-09 01:55:44,900] multiqc.report                                     [DEBUG  ]  Wrote data file qualimap_coverage_histogram.txt
+[2026-05-09 01:55:44,900] multiqc.report                                     [DEBUG  ]  Wrote data file qualimap_genome_fraction.txt
+[2026-05-09 01:55:44,901] multiqc.report                                     [DEBUG  ]  Wrote data file qualimap_insert_size.txt
+[2026-05-09 01:55:44,902] multiqc.report                                     [DEBUG  ]  Wrote data file qualimap_gc_content.txt
+[2026-05-09 01:55:44,902] multiqc.report                                     [DEBUG  ]  Wrote data file fastqc_sequence_counts_plot.txt
+[2026-05-09 01:55:44,903] multiqc.report                                     [DEBUG  ]  Wrote data file fastqc_per_base_sequence_quality_plot.txt
+[2026-05-09 01:55:44,904] multiqc.report                                     [DEBUG  ]  Wrote data file fastqc_per_sequence_quality_scores_plot.txt
+[2026-05-09 01:55:44,906] multiqc.report                                     [DEBUG  ]  Wrote data file fastqc_per_sequence_gc_content_plot_Percentages.txt
+[2026-05-09 01:55:44,908] multiqc.report                                     [DEBUG  ]  Wrote data file fastqc_per_sequence_gc_content_plot_Counts.txt
+[2026-05-09 01:55:44,908] multiqc.report                                     [DEBUG  ]  Wrote data file fastqc_per_base_n_content_plot.txt
+[2026-05-09 01:55:44,909] multiqc.report                                     [DEBUG  ]  Wrote data file fastqc_sequence_duplication_levels_plot.txt
+[2026-05-09 01:55:44,909] multiqc.report                                     [DEBUG  ]  Wrote data file fastqc-status-check-heatmap.txt
+[2026-05-09 01:55:44,909] multiqc.core.write_results                         [DEBUG  ]  Moving data file from '/tmp/tmpuqww924q/multiqc_data' to '/home/BCG2026_Pourhamzeh_P/exam_project/multiqc/multiqc_data'
+[2026-05-09 01:55:45,077] multiqc.core.write_results                         [INFO   ]  Data        : multiqc/multiqc_data
+[2026-05-09 01:55:45,089] multiqc.core.write_results                         [DEBUG  ]  Compressing plot data
+[2026-05-09 01:55:45,233] multiqc.core.write_results                         [INFO   ]  Report      : multiqc/multiqc_report.html
