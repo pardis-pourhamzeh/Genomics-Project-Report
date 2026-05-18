@@ -19,8 +19,7 @@ A trio-based whole-exome sequencing (WES) analysis is performed on five simulate
 | 4 | AR | **MKKS** | 10,407,697 | CA → C | frameshift (HIGH) | Bardet-Biedl / McKusick-Kaufman (BBS6) | Affected |
 | 5 | AR | **ADA** | 44,620,357 | CTT → C | frameshift (HIGH) | ADA-SCID | Affected |
 
-All four candidate variants are flagged Pathogenic in ClinVar, are within an exome target region, and segregate with the inheritance model prescribed for the trio. The single healthy trio (trio_1) carries no high- or moderate-impact rare candidate after filter_vep, consistent with the ~20% healthy rate in the simulation.
-
+All four candidate variants are flagged Pathogenic in ClinVar, are within an exome target region, and segregate with the inheritance model prescribed for the trio. 
 ---
 
 ## 2. Repository layout
