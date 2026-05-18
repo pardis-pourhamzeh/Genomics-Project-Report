@@ -1,6 +1,6 @@
-# BCG 2026 — Clinical Diagnosis of Rare Mendelian Disorders by Trio-Based WES on Chromosome 20
+# Clinical Diagnosis of Rare Mendelian Disorders by Trio-Based WES on Chromosome 20
 
-Final project for the **Genomics course (BCG 2026)** at the Università degli Studi di Milano Statale.
+Final project for the **Genomics course** at the Università degli Studi di Milano Statale.
 A trio-based whole-exome sequencing (WES) analysis is performed on five simulated trios (chr20, GRCh38) to identify candidate disease-causing variants under prescribed inheritance models, validate them against ClinVar and online VEP, and report a final diagnosis for each trio.
 
 > **Author:** Pardis Pourhamzeh
