@@ -19,7 +19,8 @@ A trio-based whole-exome sequencing (WES) analysis is performed on five simulate
 | 4 | AR | **MKKS** | 10,407,697 | CA → C | frameshift (HIGH) | Bardet-Biedl / McKusick-Kaufman (BBS6) | Affected |
 | 5 | AR | **ADA** | 44,620,357 | CTT → C | frameshift (HIGH) | ADA-SCID | Affected |
 
-All four candidate variants are flagged Pathogenic in ClinVar, are within an exome target region, and segregate with the inheritance model prescribed for the trio. 
+All four candidate variants are flagged Pathogenic in ClinVar, are within an exome target region, and segregate with the inheritance model prescribed for the trio.
+
 ---
 
 ## 2. Repository layout
@@ -30,26 +31,13 @@ All four candidate variants are flagged Pathogenic in ClinVar, are within an exo
 ├── Pourhamzeh_BCG2026_Genomics_report.pdf     # final 6-page report
 ├── genome_pipeline.sh                         # single-file pipeline (read this first)
 ├── VEP_output_visualization.md                # how to read the VEP / filter_vep output
-├── scripts/                                   # same pipeline split into modular steps
-│   ├── RUN_ORDER.txt
-│   ├── setup_workdir.sh
-│   ├── run_fastqc.sh
-│   ├── align_all.sh
-│   ├── index_and_qc.sh
-│   ├── run_multiqc.sh
-│   ├── variant_calling.sh
-│   ├── filter_variants.sh
-│   ├── run_vep.sh
-│   ├── run_filter_vep.sh
-│   ├── coverage_tracks.sh
-│   └── ucsc_subset.sh
 ├── VCF_trios/                                 # candidate VCFs per trio (HIGH-rare short-list)
 ├── UCSC_Genome_Browser/                       # UCSC screenshots
 ├── IGV_genomes_view/                          # IGV screenshots
 └── MultiQC_reports/                           # MultiQC HTML
 ```
 
-**Two equivalent ways to run the analysis** are provided. `genome_pipeline.sh` at the repository root is a single-file consolidation of the entire workflow, while `scripts/` contains the same pipeline split into modular `.sh` files used during development and debugging. Both produce the same outputs and use identical parameters.
+**Two equivalent ways to run the analysis** are provided. `genome_pipeline.sh` at the repository root is a single-file consolidation of the entire workflow.
 
 ---
 
@@ -86,33 +74,7 @@ All four candidate variants are flagged Pathogenic in ClinVar, are within an exo
 
 The full pipeline takes ≈ 2–4 hours, mostly Bowtie2. You can run it either way.
 
-### Option A — single-file pipeline 
 
-```bash
-# on the leon server
-scp Pourhamzeh_BCG2026_Genomics_report/genome_pipeline.sh \
-    BCG2026_Pourhamzeh_P@leon:~/exam_project_scripts/
-chmod +x ~/exam_project_scripts/genome_pipeline.sh
-bash ~/exam_project_scripts/genome_pipeline.sh 2>&1 | tee ~/exam_project/pipeline.log
-```
-
-### Option B — modular scripts (used during development; identical output)
-
-Run them in this order from `~/exam_project_scripts/`:
-
-```bash
-bash setup_workdir.sh      # 0. build ~/exam_project/trio_{1..5}/ with FASTQ symlinks
-bash run_fastqc.sh         # 1. per-read quality control
-bash align_all.sh          # 2. paired-end Bowtie2 + samtools sort
-bash index_and_qc.sh       # 3. samtools index + Qualimap bamqc
-bash run_multiqc.sh        # 4. aggregate FastQC + Qualimap into one HTML
-bash variant_calling.sh    # 5. FreeBayes joint trio calling (--min-coverage 20)
-bash filter_variants.sh    # 6. bcftools norm + GT filter + inheritance grep + exome-target intersect
-bash run_vep.sh            # 7. offline VEP + ClinVar custom annotation
-bash run_filter_vep.sh     # 8. filter_vep IMPACT==HIGH and MAX_AF<1e-4
-bash coverage_tracks.sh    # 9. bedtools genomecov → bedgraphs for UCSC
-bash ucsc_subset.sh        # subset bedgraphs to a 100 kb window around each candidate
-```
 
 ### Key methodological notes
 
